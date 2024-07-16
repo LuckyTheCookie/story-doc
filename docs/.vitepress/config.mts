@@ -3,27 +3,36 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Story doc",
-  description: "A VitePress Site",
+  description: "A simple documentation for STUdio",
   base: '/story-doc/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/logo.png',
+    
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Getting started', link: '/init/install' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Getting Started',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Installation', link: '/init/install' },
+          { text: 'Histoires', link: '/init/story' }
+        ]
+      },
+      {
+        text: 'FAQ',
+        items: [
+          { text: 'How to use STUdio?', link: '/faq/how-to-use' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/LuckyTheCookie' },
+      { icon: 'discord', link: 'https://discord.gg/z3H36AxMUQ' }
     ]
   }
 })

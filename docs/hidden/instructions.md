@@ -1,3 +1,6 @@
+<meta name="robots" content="noindex">
+<meta name="googlebot" content="noindex">
+
 # Vous souhaitez modifier cette documentation ?
 Un compte github est nécessaire pour contribuer à ce projet 😅
 

@@ -23,9 +23,15 @@ export default defineConfig({
         ]
       },
       {
-        text: 'FAQ',
+        text: 'Guides',
         items: [
-          { text: 'How to use STUdio?', link: '/faq/how-to-use' }
+          { text: 'How to use STUdio?', link: '/guide/studio' }
+        ]
+      },
+      {
+        text: 'Advanced',
+        items: [
+          { text: 'Outils', link: '/advanced/tools' }
         ]
       }
     ],
